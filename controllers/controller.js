@@ -43,7 +43,7 @@ exports.getinfo = async (req, res) => {
         }
 
     ]);
-
+console.log(info);
 
 
     res.status(200).json({
